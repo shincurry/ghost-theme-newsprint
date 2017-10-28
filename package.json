@@ -1,8 +1,8 @@
 {
-  "name": "tiny",
-  "description": "The default personal blogging theme for Ghost. Beautiful, minimal and responsive.",
+  "name": "Newsprint",
+  "description": "Newsprint style theme for Ghost",
   "demo": "https://demo.ghost.io",
-  "version": "1.3.6",
+  "version": "1.0.0",
   "engines": {
     "ghost": ">=0.9.0 <1.0.0"
   },
@@ -12,9 +12,9 @@
     "mobile": "assets/screenshot-mobile.jpg"
   },
   "author": {
-    "name": "Ghost Foundation",
-    "email": "hello@ghost.org",
-    "url": "https://ghost.org"
+    "name": "ShinCurry",
+    "email": "shincurryyang@gmail.com",
+    "url": "https://windisco.com"
   },
   "gpm": {
     "type": "theme",
@@ -29,10 +29,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/TryGhost/Casper.git"
+    "url": "https://github.com/shincurry/ghost-theme-newsprint"
   },
-  "bugs": "https://github.com/TryGhost/Casper/issues",
-  "contributors": "https://github.com/TryGhost/Casper/graphs/contributors",
+  "bugs": "https://github.com/shincurry/ghost-theme-newsprint/issues",
+  "contributors": "https://github.com/shincurry/ghost-theme-newsprint/graphs/contributors",
   "dependencies": {
     "han-css": "^3.3.0"
   }
