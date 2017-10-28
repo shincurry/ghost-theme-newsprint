@@ -6,24 +6,24 @@
 {{!-- Everything inside the #post tags pulls data from the post --}}
 {{#post}}
 <div class="main">
-<div class="post">
+<article class="post han-init-context">
     <h3 class="date" datetime="{{date format="YYYY-MM-DD"}}">{{date format="MM/DD YYYY"}}</h3>
     <h1>{{title}}</h1>
     <div class="content">
         {{content}}
     </div>
-</div>
+</article>
 
 {{!-- Links to Previous/Next posts --}}
 <aside class="read-next">
     {{#next_post}}
     <a class="read-next-story next" href="{{url}}">
-        <h2>下一篇：<span>{{title}}</span></h2>
+        <h4>下一篇：<span>{{title}}</span></h4>
     </a>
     {{/next_post}}
     {{#prev_post}}
     <a class="read-next-story prev" href="{{url}}">
-        <h2>上一篇：<span>{{title}}</span></h2>
+        <h4>上一篇：<span>{{title}}</span></h4>
     </a>
     {{/prev_post}}
 </aside>
