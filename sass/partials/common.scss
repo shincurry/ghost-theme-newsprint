@@ -1,3 +1,10 @@
+@import "variables";
+
+html {
+  background-color: $background-color;
+  color: $word-color;
+}
+
 body {
   font-family: "Roboto", "Helvetica Neue", "Hiragino Sans GB", "LiHei Pro", Arial, serif;
   text-rendering: optimizelegibility;
@@ -6,7 +13,6 @@ body {
   font-weight: 400;
   font-size: 16px;
   word-spacing: 1px;
-  color: #666;
   margin: 0;
 }
 
@@ -20,6 +26,10 @@ a {
   transition: color 0.2s ease, border-color 0.2s ease;
 }
 
+hr {
+  color: $hr-color;
+}
+
 .header {
   letter-spacing: 5px;
   margin: 50px auto 15px;
@@ -27,14 +37,13 @@ a {
 
   a {
     font-size: 15px;
-    color: #444;
+    color: $theme-color;
   }
 }
 
 .links {
   text-align: center;
-  font-family: "Roboto", "Helvetica Neue", "Hiragino Sans GB", "LiHei Pro", Arial, serif;
-  color: #999;
+  color: $link-color;
   font-size: 24px;
   margin: 0;
 
@@ -54,16 +63,9 @@ a {
   }
 }
 
-.header,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+.header, h1, h2, h3, h4, h5, h6 {
   font-family: "Montserrat", "Helvetica Neue", "Hiragino Sans GB", "LiHei Pro", Arial, sans-serif;
   font-weight: 400;
-  color: #444;
 }
 
 .main {

@@ -1,13 +1,14 @@
 .main {
-  margin-top: 80px;
+  margin-top: 40px;
 
   ul.post-list {
+    margin-top: 80px;
     list-style-type: none;
 
     li {
       position: relative;
       padding: 15px 0 15px;
-      border-bottom: 1px solid #e6e6e6;
+      border-bottom: 1px solid $hr-color;
 
       h2, h3 {
         letter-spacing: 1px;
@@ -21,17 +22,16 @@
         margin-left: 120px;
 
         a {
-          color: #444;
+          color: $word-color;
         }
 
         a:hover {
-          color: #42b983;
+          color: $link-color;
         }
       }
 
       h3 {
         font-size: 13px;
-        color: #999;
         position: absolute;
         left: 0;
         top: 21px;
@@ -57,15 +57,16 @@
   }
 
   a:hover {
-    color: #42b983;
+    color: $link-color;
   }
 }
 
 @media screen and (max-width: 420px) {
   .main {
-
-
     ul.post-list {
+      padding: 0 25px 50px;
+
+
       li {
         padding: 18px 0 20px;
 

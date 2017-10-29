@@ -1,8 +1,23 @@
+@import "variables";
+
 .post {
   position: relative;
   padding-bottom: 10px;
   margin-bottom: 30px;
-  border-bottom: 1px solid #e6e6e6;
+  border-bottom: 1px solid $hr-color;
+
+  .date {
+    font-family: "Montserrat", "Helvetica Neue", "Hiragino Sans GB", "LiHei Pro", Arial, sans-serif;
+    font-size: 13px;
+    color: #999;
+    margin: 0;
+    letter-spacing: 1px;
+  }
+
+  .title {
+    margin: 0;
+    border-bottom: 1px solid $hr-color;
+  }
 
   .content {
     text-align: left;
@@ -19,17 +34,14 @@
     }
 
     a {
-      color: #42b983;
-      border-bottom: 2px solid transparent;
+      color: $link-color;
+      border-bottom: 1.5px solid transparent;
     }
-  }
 
-  .date {
-    font-family: "Montserrat", "Helvetica Neue", "Hiragino Sans GB", "LiHei Pro", Arial, sans-serif;
-    font-size: 13px;
-    color: #999;
-    margin: 0 0 30px;
-    letter-spacing: 1px;
+    a:hover {
+      color: $link-color;
+      border-bottom-color: $link-color;
+    }
   }
 
   img {
@@ -67,7 +79,7 @@
     margin-bottom: 10px;
 
     span {
-      color: #42b983;
+      color: $link-color;
     }
   }
 }
